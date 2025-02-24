@@ -1,0 +1,36 @@
+.whatsapp-container {
+    width: 60px !important;
+    height: 60px !important;
+    position: fixed;
+    bottom: 50px;
+    right: 80px;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatssapp-hover-item {
+    background: #4ECB5C;
+    color: white;
+    padding: 5px 14px;
+    bottom: 70px; /* Adjust position as needed */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    border-radius: 15px;
+}
+
+.whatsapp-icon {
+    width: 60px !important;
+    height: 60px !important;
+    cursor: pointer;
+    position: relative;
+}
+
+.whatsapp-container:hover .whatssapp-hover-item {
+    opacity: 1;
+    visibility: visible;
+    border-radius: 15px;
+
+}

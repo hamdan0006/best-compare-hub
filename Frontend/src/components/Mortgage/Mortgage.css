@@ -1,0 +1,76 @@
+.mortgage-container{
+    width: 70%;
+    height: 280px;
+    min-height: fit-content;
+    /* margin-bottom: 20vh; */
+}
+
+.mortgage-container{
+    /* margin-top: 30vh; */
+
+
+}
+.img-container{
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.bnk-logo{
+    width: 100px;
+    height: 50px;
+}
+
+.divider{
+    border-bottom: 1.6px solid rgb(174, 174, 174) ;
+    height: 20px;
+    width: 97%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.mor-apply-btn {
+    background-color: #056DAE;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    color: rgb(218, 216, 216);
+  }
+  
+  .mor-apply-btn:hover {
+    background-color: #4298ce;
+  }
+  
+  .mor-apply-btn:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+
+  .m-f-color{
+    color: #234268;
+  }
+  @media (max-width :600px){
+    .mortgage-container{
+      width: 100% !important;
+      height: 280px;
+      min-height: fit-content;
+      /* margin-bottom: 20vh; */
+
+  }
+  }
+  @media (min-width: 768px) {
+    .mor-apply-btn {
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  }

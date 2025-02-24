@@ -1,0 +1,17 @@
+.mortgage-main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-top: 80px;
+
+}
+.mortgage-wrapper{
+    padding: 20px;
+    background: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    
+}

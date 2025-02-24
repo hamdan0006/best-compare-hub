@@ -1,0 +1,262 @@
+/* General styles */
+.mortgageapply {
+  padding-top: 60px;
+  min-height: fit-content;
+  height: auto;
+  min-height: 80vh;
+  margin-bottom: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7fa, #e6ecf6); /* Soft gradient background */
+}
+
+.custom-apply-column {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px; /* Rounded corners */
+  padding: 30px;
+  margin: 10px auto;
+  background: linear-gradient(105.18deg, #003da6 3.44%, #2669dc 97.48%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.custom-apply-column:hover {
+  transform: translateY(-5px); /* Lift the card on hover */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.main-calc-heading {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+}
+
+/* Range input styles */
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(to right, #f0f0f0, #aacff4);
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 2px solid #8dc3f9;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth thumb hover */
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.2); /* Enlarge thumb on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 2px solid #1E90FF;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="range"]::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 2px solid #1E90FF;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="range"]:hover {
+  opacity: 1;
+}
+
+.mor-number {
+  border: none !important;
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important; /* Lighter border */
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background: transparent;
+  color: white;
+  transition: border-bottom 0.3s ease; /* Smooth border transition */
+}
+
+.mor-number:focus {
+  border-bottom: 1px solid white !important; /* Highlight on focus */
+}
+
+/* Button styles */
+.morbutton {
+  width: 100%;
+  padding: 12px;
+  background-color: #1E90FF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover and click */
+}
+
+.morbutton:hover {
+  background-color: #0077cc; /* Darker shade on hover */
+  transform: translateY(-2px); /* Lift button on hover */
+}
+
+button:active {
+  transform: translateY(0); /* Reset on click */
+}
+
+/* Result display styles */
+.result-display {
+  margin-top: 20px;
+  text-align: center;
+  animation: fadeIn 0.5s ease; /* Fade-in animation */
+}
+
+.result-display h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.result-display p {
+  font-size: 24px;
+  color: #d5e6f6;
+  font-weight: 600;
+}
+
+
+.custom-apply-column-2 {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.mor-apply-now-heading{
+  color: #003DA6;
+}
+
+.mor-apply-now-txt{
+  color: #5985d1;
+  width: 90%;
+  margin-top: 15px;
+}
+
+.MuiSelect-select {
+  z-index: 1; /* Adjust as needed */
+}
+
+.mor-apply-btn-2{
+  width: 75%;
+  background: linear-gradient(105.18deg, #003da6 3.44%, #2669dc 97.48%);
+  padding: 10px;
+  margin-top: 28px;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+}
+
+  .mor-apply-btn-2:hover {
+    background: linear-gradient(105.18deg, #2669dc 3.44%, #003da6 97.48%); /* Reverse gradient on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.mor-number::placeholder {
+  font-size: 14px;
+  color: white;
+}
+
+.toast button[type="button"] {
+  all: unset !important; 
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  background: yellow !important;
+}
+
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .mortgageapply {
+      padding-top: 30px;
+      margin-bottom: 20vh;
+  }
+
+  .custom-apply-column {
+      padding: 20px;
+  }
+
+  .main-calc-heading {
+      font-size: 24px;
+  }
+
+  .mor-number::placeholder {
+      font-size: 14px;
+      color: white;
+  }
+
+  button {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mortgageapply {
+      padding-top: 20px;
+      margin-bottom: 10vh;
+  }
+
+  .main-calc-heading {
+      font-size: 20px;
+  }
+
+  .mor-number {
+      font-size: 12px;
+  }
+
+  button {
+      font-size: 12px;
+  }
+}

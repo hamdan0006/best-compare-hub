@@ -1,0 +1,148 @@
+.canvas{
+    z-index: 11;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+}
+
+.canvas-main-hding {
+  color: rgb(60, 60, 60) !important;
+}
+.canvas-sub-hding{
+  color: black;
+}
+
+.three-line{
+  position: fixed !important;
+}
+.offcanvas {
+  background: #f5f4f4;
+padding: 0px !important;
+margin:0px !important;
+z-index: 10000 !important;
+width: 80% !important;
+}
+
+.drop-down-container-off-canvas{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.offcanvas-body{
+  z-index: 10000 !important;
+
+}
+.offcanvas-menu{
+  width: 100%;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.offcanvas-menu-item{
+  text-decoration: none !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  margin-bottom: 27px !important;
+}
+.canvas-main-hding{
+
+  text-decoration: dotted !important;
+  font-size: 16px;
+  color: black;
+  margin: 0px !important;
+  padding: 0px !important;
+
+}
+.inactive-link,
+.active-link {
+  text-decoration: none; /* Removes underline */
+}
+.sub-heading-main-container{
+  margin: 0px !important;
+  padding: 0px !important;
+
+}
+.sub-heading-container{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: #e2e1e1;
+  width: 100% !important;
+  
+}
+
+.sub-heading{
+  color: black;
+  width: 100%;
+  padding: 7px;
+  
+}
+.sub-heading:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+
+  /* For extra small devices (xs) */
+  @media (max-width: 575.98px) {
+    .canvas{
+        display: inline;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+    .three-line{
+        display: inline;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+  
+  }
+  
+  /* For small devices (sm) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .canvas{
+      display: inline;
+      position: absolute;
+      top: 25px;
+      left: 25px;
+  }
+  .three-line{
+      display: inline;
+      position: absolute;
+      top: 25px;
+      left: 25px;
+  }
+    
+  }
+  
+  /* For medium devices (md) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .canvas{
+      display: inline;
+      position: absolute;
+      top: 25px;
+      left: 25px;
+  }
+  .three-line{
+      display: inline;
+      position: absolute;
+      top: 25px;
+      left: 25px;
+  }
+   
+  }
+  
+  /* For large devices (lg) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+  
+  }
+  
+  /* For extra large devices (xl) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+  }
+  
+  /* For extra extra large devices (xxl) */
+  @media (min-width: 1400px) {
+    
+  }
+  

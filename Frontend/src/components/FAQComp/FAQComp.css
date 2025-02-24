@@ -1,0 +1,23 @@
+.faq-wrapper{
+    background: #F8F8F8;
+  }
+  .faq-q{
+    text-decoration: none !important;
+    color: rgb(76, 75, 75);
+  }
+  .faq{
+    width: 70%;
+    height: fit-content;
+    padding: 90px;
+  }
+  .faq-q-conatiner {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .faq-svg-conatiner{
+  }
+  .faq-c-container{
+    width: 80%;
+    margin-left: 18px;
+  }
+  

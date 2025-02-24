@@ -1,0 +1,381 @@
+.home{
+
+}
+
+.hero {
+    background-image: url('./../../assets/Home-page/img-3.jpeg'); /* Replace with your image path */
+    background-size: 50%; /* Ensures the image covers the entire element */
+    background-position:top right  ;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 90vh; 
+    width: 100%;
+    /* overflow: hidden;  */
+    padding-top: 100px; 
+    font-family: "Roboto", serif;
+    margin-bottom: 100px;
+   
+    
+
+  }
+  
+  .hero::before {
+    content: ''; /* Required to create a pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1px); /* Adds blur effect */
+    z-index: 1; /* Puts the blur and white tint on top of the background image */
+  }
+
+  .hero .hero-content{
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero .hero-content h1{
+    font-size: 74px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #056DAE;
+  }
+
+  .hero .hero-content h1 span{
+    font-size: 54px;
+    color: rgb(80, 80, 80);
+    padding-left: 10px;
+    font-weight: 300;
+
+  }
+ 
+  .txt-container{
+    width: 500px;
+  }
+  .txt-container span{
+    color:#056DAE ;
+  }
+
+  .txt-container p{
+    font-size: 20px;
+    line-height: 40px;
+
+  }
+
+  .button{
+    background-color: #056DAE !important;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    color: white !important;
+    border: none;
+  }
+  .button:hover{
+    background-color: #0C4B7B !important;
+  }
+
+  .button-apply{
+    background-color: #056DAE !important;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    color: white !important;
+    border: none;
+  }
+  .button-view{
+    background-color: #DCDCDA !important;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    color: rgb(72, 71, 71) !important;
+    border: none;
+  }
+
+  .button-view-txt{
+    font-size: 14px;
+  }
+
+  .custom-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    
+  }
+#SVGRepo_bgCarrier{
+
+  width: 100px !important;
+    height: 20px !important;
+
+}
+  .svg{
+    padding: 20px;
+    border-radius: 30px;
+    
+  }
+
+  .custom-container h6{
+
+    font-size: 15px;
+    color: #056DAE;
+    margin-top: 10px;
+    text-decoration: none !important;
+
+  }
+
+  .custom-container{
+    
+    height: 200px;
+    margin-bottom: 10px;
+
+
+  }
+
+  .custom-container h6{
+    text-decoration: none !important;
+  }
+  .custom-container:hover{
+    transition: 0.3s;
+    transform: scale(1.1); /* Makes the column grow */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .custom-column{
+    width: 300px !important;
+   height: auto;
+   margin-bottom: 80px;
+  }
+
+  .acc-content{
+    color: #424242;
+  }
+
+  .acc-content h5{
+    font-size: 18px;
+    font-weight: 300;
+
+  }
+  .acc-content .sub-heading{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .acc-content .acc-content-txt{
+    font-size: 16px;
+    font-weight: 300;
+
+  }
+
+  .news-list{
+    width: 80%;
+  }
+
+  .news-list li{
+    list-style: square !important;
+    margin-top: 20px;
+  }
+
+
+  /* For extra small devices (xs) */
+@media (max-width: 600px) {
+
+  .hero{
+    display: flex;
+    justify-content: center;
+    height: 90vh; 
+
+    /* align-items: center; */
+    background-size: cover; 
+    background-position:center top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px !important;
+  }
+
+  .hero-content{
+    width: 300px;
+  }
+  .hero .hero-content h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #056DAE;
+  }
+
+  .hero .hero-content h2 span{
+    font-size: 35px;
+    color: rgb(48, 46, 46);
+    padding-left: 10px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+  }
+  .txt-container{
+    max-width: 400px;
+    margin-bottom: 30px;
+    width: 250px;
+  }
+  .txt-container p{
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 500;
+
+  }
+
+  .txt-container p span{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 800;
+
+  }
+
+  .custom-container{
+    min-height: fit-content;
+  }
+
+  .button-apply{
+    margin-top: 10px;
+  }
+  
+}
+
+/* For small devices (sm) */
+@media (min-width: 600px) and (max-width: 767.98px) {
+
+  
+  .hero{
+    /* display: flex;
+    justify-content: center; */
+    height: 80vh; 
+    padding-top: 1px !important; 
+
+
+    /* align-items: center; */
+    background-size: cover; 
+    background-position:center top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero-content{
+  }
+  .hero .hero-content h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 0px !important;
+    color: #056DAE;
+    
+  }
+
+  .hero .hero-content h2 span{
+    font-size: 35px;
+    color: rgb(48, 46, 46);
+    padding-left: 10px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+  }
+  .txt-container{
+    width: 400px;
+    margin-bottom: 30px;
+  }
+  .txt-container p{
+    font-size: 18px;
+    line-height: 40px;
+
+  }
+
+  .txt-container p span{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+
+  }
+
+  .custom-container{
+    min-height: fit-content;
+  }
+
+  .button-apply{
+    margin-top: 10px;
+  }
+  
+  
+}
+
+/* For medium devices (md) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .hero{
+    /* display: flex;
+    justify-content: center; */
+    height: 80vh; 
+
+    /* align-items: center; */
+    background-size: cover; 
+    background-position:center top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero-content{
+  }
+  .hero .hero-content h2{
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #056DAE;
+  }
+
+  .hero .hero-content h2 span{
+    font-size: 45px;
+   color: grey;
+    padding-left: 10px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+  }
+  .txt-container{
+    width: 500px;
+    margin-bottom: 30px;
+  }
+  .txt-container p{
+    font-size: 22px;
+    line-height: 40px;
+
+  }
+
+  .txt-container p span{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+
+  }
+
+  .custom-container{
+    min-height: fit-content;
+  }
+
+  .button-apply{
+    margin-top: 10px;
+  }
+  
+ 
+}
+
+/* For large devices (lg) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+
+}
+
+/* For extra large devices (xl) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  
+}
+
+/* For extra extra large devices (xxl) */
+@media (min-width: 1400px) {
+  
+}
