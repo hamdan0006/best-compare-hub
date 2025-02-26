@@ -37,10 +37,10 @@ function Home() {
 
         <section className='hero flex '>
           <div className='hero-content px-1 py-5 mx-5 mt-5'>
-            <h1 className='mb-1 '>
+            <h2 className='mb-1 '>
               Compare
               <span>.Choose. Save</span>
-            </h1>
+            </h2>
             <div className='txt-container'>
               <p>Find and apply for the best financial products tailored to your needs, and get approved faster with <span> BestCompareHub </span></p>
             </div>

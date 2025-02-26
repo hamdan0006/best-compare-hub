@@ -1,5 +1,5 @@
 const express = require('express');
-const Authrouter = express.Router();  // ✅ Correct Router Name
+const Authrouter = express.Router();  
 const authControllers = require('../controller/Sign-user-controller');
 
 Authrouter.route("/register").post(authControllers.register); 

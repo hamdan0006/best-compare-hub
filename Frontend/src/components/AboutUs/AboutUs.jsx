@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutUs.css"; // Ensure you have the required CSS file
+import "./AboutUs.css"; 
 
 const skills = [
   { name: "Node.js", filledPercentage: 80 },

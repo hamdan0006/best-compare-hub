@@ -12,7 +12,7 @@ function PersonalLoanWrapper() {
 
           <Mortgage
             bankName="Abu Dhabi Bank (FAB)"
-            bankLogo="../../public/mortgage-bank-img/fab-logo.png"
+            bankLogo="/mortgage-bank-img/fab-logo.png"
             planName="Personal loans, with flexible repayment terms."
             minSalary="5,000"
             fixedRate="3.49%"
@@ -22,7 +22,7 @@ function PersonalLoanWrapper() {
 
           <Mortgage
             bankName="Emirates NBD"
-            bankLogo="../../public/mortgage-bank-img/Emirates NBD.png"
+            bankLogo="/mortgage-bank-img/Emirates NBD.png"
             planName="Personal loans with competitive rates and fast approval."
             minSalary="5,000"
             fixedRate="2.99%"
@@ -32,7 +32,7 @@ function PersonalLoanWrapper() {
 
           <Mortgage
             bankName="Abu Dhabi Commercial Bank"
-            bankLogo="../../public/mortgage-bank-img/ADCB.jpeg"
+            bankLogo="/mortgage-bank-img/ADCB.jpeg"
             planName="Unsecured personal loans with attractive rates and terms."
             minSalary="5,000"
             fixedRate="3.49%"
@@ -42,7 +42,7 @@ function PersonalLoanWrapper() {
 
           <Mortgage
             bankName="Dubai Islamic Bank"
-            bankLogo="../../public/mortgage-bank-img/Dubai-Islamic.jpeg"
+            bankLogo="/mortgage-bank-img/Dubai-Islamic.jpeg"
             planName="Sharia-compliant personal loans, with competitive interest rates"
             minSalary="5,000"
             fixedRate="3.49%"
@@ -52,7 +52,7 @@ function PersonalLoanWrapper() {
 
           <Mortgage
             bankName="Abu Dhabi Commercial Bank"
-            bankLogo="../../public/mortgage-bank-img/ADCB.jpeg"
+            bankLogo="/mortgage-bank-img/ADCB.jpeg"
             planName="Starting from 3.20% per annum (for fixed-rate mortgages)"
             minSalary="5,000"
             fixedRate="3.19%"
@@ -62,7 +62,7 @@ function PersonalLoanWrapper() {
 
 <Mortgage
             bankName="Sharjah Islamic Bank"
-            bankLogo="../../public/mortgage-bank-img/Sharjah Islamic Bank.png"
+            bankLogo="/mortgage-bank-img/Sharjah Islamic Bank.png"
             planName="Islamic personal financing options, competitive rates."
             minSalary="5,000"
             fixedRate="3.75%"
@@ -72,7 +72,7 @@ function PersonalLoanWrapper() {
 
 <Mortgage
             bankName="Bank of Sharjah"
-            bankLogo="../../public/mortgage-bank-img/Bank of Sharjah.png"
+            bankLogo="/mortgage-bank-img/Bank of Sharjah.png"
             planName="Personal loans with competitive interest rates. "
             minSalary="5,000"
             fixedRate="4.0%"
@@ -82,7 +82,7 @@ function PersonalLoanWrapper() {
 
 <Mortgage
             bankName="National Bank of Fujairah"
-            bankLogo="../../public/mortgage-bank-img/National Bank of Fujairah.png"
+            bankLogo="/mortgage-bank-img/National Bank of Fujairah.png"
             planName="Unsecured personal loans with flexible terms."
             minSalary="5,000"
             fixedRate=" 3.99% "
@@ -92,7 +92,7 @@ function PersonalLoanWrapper() {
 
 <Mortgage
             bankName="United Arab Bank"
-            bankLogo="../../public/mortgage-bank-img/United Arab Bank.jpeg"
+            bankLogo="/mortgage-bank-img/United Arab Bank.jpeg"
             planName="Personal loans with competitive rates and flexible repayment options. "
             minSalary="5,000"
             fixedRate=" 4.25%"
@@ -102,7 +102,7 @@ function PersonalLoanWrapper() {
 
 <Mortgage
             bankName="Commercial Bank of Dubai"
-            bankLogo="../../public/mortgage-bank-img/Commercial Bank of Dubai.png"
+            bankLogo="/mortgage-bank-img/Commercial Bank of Dubai.png"
             planName="Personal loans with a fast and simple process. "
             minSalary="5,000"
             fixedRate="  3.75%"
@@ -112,7 +112,7 @@ function PersonalLoanWrapper() {
 
 <Mortgage
             bankName="	Al Masraf (Arab Bank for Investment & Foreign Trade)"
-            bankLogo="../../public/mortgage-bank-img/Al-Masraf.png"
+            bankLogo="/mortgage-bank-img/Al-Masraf.png"
             planName=" Personal financing with competitive interest rates."
             minSalary="5,000"
             fixedRate="  4.5%"
@@ -123,7 +123,7 @@ function PersonalLoanWrapper() {
 
 <Mortgage
             bankName="	Ajman Bank"
-            bankLogo="../../public/mortgage-bank-img/Ajman Bank.png"
+            bankLogo="/mortgage-bank-img/Ajman Bank.png"
             planName="Sharia-compliant personal loans, flexible terms."
             minSalary="5,000"
             fixedRate="  4.25%"
@@ -133,7 +133,7 @@ function PersonalLoanWrapper() {
 
 <Mortgage
             bankName="	Al Hilal Bank"
-            bankLogo="../../public/mortgage-bank-img/Al Hilal Bank.png"
+            bankLogo="/mortgage-bank-img/Al Hilal Bank.png"
             planName=" Islamic personal loans, competitive interest rates."
             minSalary="5,000"
             fixedRate="  3.99%"
@@ -143,7 +143,7 @@ function PersonalLoanWrapper() {
 
 <Mortgage
             bankName="	Abu Dhabi Commercial Bank "
-            bankLogo="../../public/mortgage-bank-img/ADCB.jpeg"
+            bankLogo="/mortgage-bank-img/ADCB.jpeg"
             planName=" Unsecured personal loans with attractive rates and terms."
             minSalary="5,000"
             fixedRate="  3.49%"
@@ -153,7 +153,7 @@ function PersonalLoanWrapper() {
 
 <Mortgage
             bankName="	RAKBANK"
-            bankLogo="../../public/mortgage-bank-img/rak.webp"
+            bankLogo="/mortgage-bank-img/rak.webp"
             planName=" Unsecured personal loans with a variety of features."
             minSalary="5,000"
             fixedRate="  3.49%"

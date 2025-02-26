@@ -8,7 +8,7 @@ function WhattsappIcon() {
     <div className="whatsapp-container">
        <div className="whatssapp-hover-item">Whatsapp</div>
        <a href="https://wa.link/r6o2gq" target='blank'>
-            <img className="whatsapp-icon" src="../../../public/whatsapp-873316_640.png" alt=""  />
+            <img className="whatsapp-icon" src="/whatsapp-873316_640.png" alt=""  />
             </a>
         
     </div>

@@ -8,7 +8,8 @@ const mongoose=require('mongoose');
 const path = require("path");
 const cors = require('cors');
 const sitemap=require('./routes/main-route');
-const AuthRouter =require('./routes/sign-user-route')
+const AuthRouter =require('./routes/sign-user-route');
+
 
 app.use(express.json());
 
