@@ -9,6 +9,10 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import { useParams ,useLocation } from "react-router-dom";
 
+import '../CommonHero/CommonHero'
+import CommonHero from '../CommonHero/CommonHero'
+import backgroundImage from '/commonhero/mortgage.jpg';
+
 
 function MortgageApply() {
   // State for mortgage calculator
@@ -131,7 +135,7 @@ function MortgageApply() {
     };
 
     try {
-      const response = await fetch("http://localhost:3000/apply-now", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/apply-now`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -153,6 +157,11 @@ function MortgageApply() {
   };
 
   return (
+    <>
+    <CommonHero
+     heading="Apply Now" 
+     backgroundImage={backgroundImage} 
+   />
     <div className="container-fluid d-flex justify-content-center align-items-center mortgageapply">
       <div className="row justify-content-center w-100">
         {/* First Column - Mortgage Calculator */}
@@ -289,6 +298,7 @@ function MortgageApply() {
       </div>
       <ToastContainer />
     </div>
+    </>
   );
 }
 

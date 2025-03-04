@@ -1,155 +1,120 @@
 .footer{
-    background: #333333;
-    color: white;
-   margin: 0px;
-   font-weight: 300;
-   padding: 30px;
+    background: #0D003F;
 }
-.footer-main-list-item{
-    font-size: 13px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    transition: 0.5s;
-
+.footer-row{
+    gap: 35px;
+    padding: 30px 0px 30px 0px;
 }
-.footer-main-list h5{
-    font-size: 16px;
-    margin-bottom: 10px;
+.footer-content-container{
+    height: 50vh;
+    min-height: fit-content;
 }
 
-.footer-main-list-item:hover{
-    text-decoration: underline;
-    transition: 0.5s;
-}
-
-.icons{
-    width: 180px;
-}
-.logo{
- width: 35px;
- height: 35px;
- border-radius: 20px;
- margin-right: 10px;
- cursor: pointer;
-}
-
-.terms{
-    width: 80%;
-    height: 80px;
-    margin: auto;
-    border-top: 0.3px solid white;
-    border-bottom: 0.3px solid white;
-margin-top: 40px;
-margin-bottom: 40px;
-
-}
-
-.term-list{
+.footer-list-item-container{
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     margin-top: 30px;
-    
+}
+.footer-list-item-container h4{
+    color: white;
+}
+.footer-menu-item-container{
+    list-style: none;
+    margin-top: 30px;
+
+}
+.footer-menu-item-container h4{
+    color: white;
 }
 
-.term-list-item:hover{
-    text-decoration: underline;
-    cursor: pointer;
-    
+.footer-list-item{
+    color: white;
+margin-top: 14px;
+
 }
 
-
-
-.term-list li{
-    margin-right: 30px;
-    font-size: 13px;
-    
+.footer-menu-item{
+    color: white;
+    margin-top: 14px;
 }
+
+.footer-content-container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.footer-content-container-2 h2{
+margin-top: 30px;
+color: white;
+font-weight: 600;
+text-align: center;
+font-size: 35px;
+}
+.footer-content-container-2 p{
+    color: white;
+font-weight: 500;
+text-align: center;
+width: 95%;
+font-size: 18px;
+margin-top: 12px;
+
+
+}
+#work-t-btn{
+   margin-top: 30px;
+   width: 60%;
+   color: black;
+   padding: 10px;
+   background: white;
+   border-radius: 10px;
+   font-size: 20px;
+   font-weight: 700;
+   text-align: center;
+   text-decoration: none;
+
+}
+
+#work-t-btn:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.social-icons{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+   justify-content: space-evenly;
+   }
+  
+   .footer-svg-container{
+    background: white;
+    border-radius: 18px;
+   }
+
+#emil-id{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 18px ;
+}
+#number{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 18px ;
+}
+
 .legal{
+    color: white;
+    width: 83%;
     margin: auto;
-    width: 80%;
-}
-.legal h4{
-    font-size: 16px;
-
-
 }
 .copy-rights{
-    margin-top: 40px !important;
-    padding-top: 20px;
-    margin: auto;
+    color: white;
     text-align: center;
-    border-top:0.5px solid grey ;
-    width: 80%;
+    border-top: 1px solid rgb(172, 172, 172);
+    width: 70%;
+    padding-top: 15px;
 }
-
-/* For small devices (sm) */
-@media (max-width: 500px) and (max-width: 767.98px) {
-
-    .terms{
-        width: 60%;
-        height: fit-content;
-        margin: auto;
-        border-top: 0.5px solid grey;
-        border-bottom: 0.5px solid grey;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    
-    }
-
-  .term-list{
-    flex-direction: column;
-    padding-bottom: 10px;
-  }
-
-  .term-list-item{
-    margin-bottom: 10px;
-  }
-   
-    
-  }
-  
-  /* For medium devices (md) */
-  @media (min-width: 768px) and (max-width: 991.98px) {
-
-    .terms{
-        width: 60%;
-        height: fit-content;
-        margin: auto;
-        border-top: 0.3px solid white;
-        border-bottom: 0.3px solid white;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    
-    }
-
-  .term-list{
-    flex-direction: column;
-    padding-bottom: 10px;
-  }
-
-  .term-list-item{
-    margin-bottom: 10px;
-  }
- 
- 
-   
-  }
-  
-  /* For large devices (lg) */
-  @media (min-width: 992px) and (max-width: 1199.98px) {
-    
-  
-  }
-  
-  /* For extra large devices (xl) */
-  @media (min-width: 1200px) and (max-width: 1399.98px) {
-    
-  }
-  
-  /* For extra extra large devices (xxl) */
-  @media (min-width: 1400px) {
-    
-  }
-  

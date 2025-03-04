@@ -7,6 +7,10 @@ import './HotPromotionApply.css';
 import 'react-toastify/dist/ReactToastify.css';
 
 
+import '../CommonHero/CommonHero'
+import CommonHero from '../CommonHero/CommonHero'
+import backgroundImage from '/commonhero/hot-promotion.jpg';
+
 import {
     TextField,
     Button,
@@ -35,7 +39,7 @@ function HotPromotionApply() {
 
     useEffect(() => {
         axios
-            .get(`http://localhost:3000/hot-promotions/${id}`)
+            .get(`${import.meta.env.VITE_API_URL}/hot-promotions/${id}`)
             .then((response) => {
                 setCard(response.data);
                 setFormData((prevData) => ({
@@ -117,6 +121,10 @@ function HotPromotionApply() {
 
     return (
         <>
+        <CommonHero
+     heading="Apply Now" 
+     backgroundImage={backgroundImage} 
+   />
             <ToastContainer />
 
 

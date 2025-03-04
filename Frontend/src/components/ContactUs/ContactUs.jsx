@@ -4,6 +4,10 @@ import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import './ContactUs.css';
 
+import '../CommonHero/CommonHero'
+import CommonHero from '../CommonHero/CommonHero'
+import backgroundImage from '/commonhero/contact.jpg';
+
 function ContactUs() {
   const [formData, setFormData] = useState({
     FirstName: "",
@@ -66,6 +70,12 @@ function ContactUs() {
 
   return (
     <>
+
+<CommonHero
+     heading="Contact Us" 
+     backgroundImage={backgroundImage} 
+   />
+
       <div className="contact-us-container container-fluid">
         <div className="row">
           <div className="col-lg-7 col-md-12 col-sm-12 contact-us-sub-container contact-us-sub-container-1">
@@ -74,10 +84,10 @@ function ContactUs() {
               <p className='contact-txt-container-txt'>
                 You can contact us through our online contact form or by phone.
                 We’re here to assist you with any inquiries or support you need.
-                Feel free to reach out—we’d love to hear from you!
+                Feel free to reach.
               </p>
-              <p>Support@policyfundsbazar.com</p>
-              <p>+18734827</p>
+              <p>Sales@bestcomaprehub.com</p>
+              <p>+971505976209</p>
             </div>
           </div>
           <div className="col-lg-5 col-md-12 col-sm-12 contact-us-sub-container contact-us-sub-container-2">

@@ -1,10 +1,19 @@
 import React from 'react'
 import Mortgage from '../Mortgage/Mortgage'
 import './PersonalLoanWrapper.css'
+import '../CommonHero/CommonHero'
+import CommonHero from '../CommonHero/CommonHero'
+import backgroundImage from '/commonhero/personal-loan.jpg';
 
 function PersonalLoanWrapper() {
   return (
     <>
+
+<CommonHero
+     heading="Personal Loan" 
+     backgroundImage={backgroundImage} 
+   />
+
       <main className='mortgage-main'>
 
 

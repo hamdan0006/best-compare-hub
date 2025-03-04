@@ -9,6 +9,10 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import { useParams ,useLocation } from "react-router-dom";
 
+import '../CommonHero/CommonHero'
+import CommonHero from '../CommonHero/CommonHero'
+import backgroundImage from '/commonhero/auto-loan.jpg';
+
 function AutoLoan() {
   const location = useLocation();
   const params = new URLSearchParams(location.search);
@@ -98,7 +102,7 @@ function AutoLoan() {
     };
 
     try {
-      const response = await fetch("http://localhost:3000/auto-loan/apply-now", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/auto-loan/apply-now`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -120,6 +124,12 @@ function AutoLoan() {
   };
 
   return (
+    <>
+    
+<CommonHero
+     heading="Apply Now" 
+     backgroundImage={backgroundImage} 
+   />
     <div className="container-fluid d-flex justify-content-center align-items-center mortgageapply">
       <div className="row justify-content-center w-100">
         {/* First Column - Mortgage Calculator */}
@@ -256,6 +266,7 @@ function AutoLoan() {
       </div>
       <ToastContainer />
     </div>
+    </>
   );
 }
 

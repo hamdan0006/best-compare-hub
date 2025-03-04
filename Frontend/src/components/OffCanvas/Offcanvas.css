@@ -32,9 +32,9 @@ width: 80% !important;
 
 }
 .offcanvas-menu{
-  width: 100%;
-  margin: 0px !important;
-  padding: 0px !important;
+  list-style: none; /* Removes bullets */
+  padding: 0;
+  margin: 0;
 }
 
 .offcanvas-menu-item{
@@ -72,6 +72,7 @@ width: 80% !important;
   color: black;
   width: 100%;
   padding: 7px;
+  list-style: none !important;
   
 }
 .sub-heading:hover{

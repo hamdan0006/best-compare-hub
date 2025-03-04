@@ -4,6 +4,10 @@ import { useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
+import '../CommonHero/CommonHero'
+import CommonHero from '../CommonHero/CommonHero'
+import backgroundImage from '/commonhero/personal-loan.jpg';
+
 import './ApplyForm.css';
 import {
   TextField,
@@ -33,7 +37,7 @@ function ApplyForm() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/credit-cards/${id}`)
+      .get(`${import.meta.env.VITE_API_URL}/credit-cards/${id}`)
       .then((response) => {
         setCard(response.data);
         setFormData((prevData) => ({
@@ -92,7 +96,7 @@ function ApplyForm() {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/credit-cards/apply",
+        `${import.meta.env.VITE_API_URL}/credit-cards/apply`,
         formData
       );
       toast.success("Application submitted successfully!");
@@ -115,6 +119,10 @@ function ApplyForm() {
 
   return (
     <>
+    <CommonHero
+     heading="Apply Now" 
+     backgroundImage={backgroundImage} 
+   />
       <ToastContainer />
 
       <div className="table-container">

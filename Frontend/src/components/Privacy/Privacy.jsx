@@ -2,6 +2,10 @@ import React from "react";
 import "./Privacy.css"; // Ensure you have the required CSS file
 import { NavLink } from 'react-router-dom';
 
+import '../CommonHero/CommonHero'
+import CommonHero from '../CommonHero/CommonHero'
+import backgroundImage from '/commonhero/Policy.jpg';
+
 const privacySections = [
   {
     title: "Information We Collect",
@@ -52,6 +56,11 @@ const privacySections = [
 
 const PrivacyPolicy = () => {
   return (
+    <>
+    <CommonHero
+     heading="Privacy Policy" 
+     backgroundImage={backgroundImage} 
+   />
     <div className="app-wrapper">
       <div className="privacy-policy">
         <div className="privacy-heading">
@@ -98,8 +107,8 @@ const PrivacyPolicy = () => {
                 If you have any questions or concerns about this Privacy Policy, please contact us at:
               </p>
               <ul>
-                <li>Email: [Insert email address]</li>
-                <li>Address: [Insert physical address]</li>
+                <li>Email: Sales@bestcomaprehub.com
+                </li>
               </ul>
               <NavLink to='/contact-us'>
                 <button id="privacy-btn">CONTACT US</button>
@@ -109,6 +118,7 @@ const PrivacyPolicy = () => {
         </section>
       </div>
     </div>
+    </>
   );
 };
 

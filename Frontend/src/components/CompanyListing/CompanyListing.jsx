@@ -8,6 +8,10 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
+import '../CommonHero/CommonHero'
+import CommonHero from '../CommonHero/CommonHero'
+import backgroundImage from '/commonhero/personal-loan.jpg';
+
 
 function CompanyListing() {
  
@@ -53,7 +57,7 @@ function CompanyListing() {
     };
 
     try {
-      const response = await fetch("http://localhost:3000/company-listing/apply-now", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/company-listing/apply-now`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -75,6 +79,12 @@ function CompanyListing() {
   };
 
   return (
+
+    <>
+    <CommonHero
+     heading="Get Our Services" 
+     backgroundImage={backgroundImage} 
+   />
     <div className="container-fluid d-flex justify-content-center align-items-center mortgageapply">
       <div className="row justify-content-center w-100">
 
@@ -120,6 +130,7 @@ function CompanyListing() {
       </div>
       <ToastContainer />
     </div>
+    </>
   );
 }
 

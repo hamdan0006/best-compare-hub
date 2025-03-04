@@ -1,0 +1,216 @@
+/* General Styles */
+.app-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    padding: 0; /* No padding */
+    margin: 0; /* No margin */
+    background-color: #F0F5FB; /* Light background color */
+  }
+  
+  .icon-home {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .terms-and-conditions {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px; /* Add padding */
+    background-color: #FFFFFF; /* White background for content */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .terms-heading {
+    width: 40%;
+    padding: 20px;
+  }
+  
+  .terms-heading a {
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .terms-heading a:hover {
+    color: #056DAE; /* Hover effect */
+  }
+  
+  .terms-heading span {
+    color: rgb(75, 75, 75);
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .terms-heading h1 {
+    font-size: 55px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #47141E; /* Dark red heading */
+  }
+  
+  .terms-heading p {
+    color: gray;
+    font-size: 20px;
+    line-height: 1.6; /* Improve readability */
+  }
+  
+  .terms-content {
+    margin: 50px 0;
+  }
+  
+  .terms-section h2 {
+    font-size: 34px;
+    color: #47141E; /* Dark red heading */
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .terms-section p {
+    font-size: 17px;
+    color: #056DAE; /* Blue text */
+    margin-top: 10px;
+    line-height: 1.8; /* Improve readability */
+  }
+  
+  .team-container {
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .team-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Make it responsive */
+    gap: 20px; /* Add space between elements */
+  }
+  
+  .team-section-elem {
+    width: 48%;
+  }
+  
+  .team-section-elem h2 {
+    font-size: 34px;
+    color: #47141E; /* Dark red heading */
+  }
+  
+  .team-section-elem p {
+    margin: 30px 0;
+    font-size: 20px;
+    color: #056DAE; /* Blue text */
+    line-height: 1.8; /* Improve readability */
+    font-weight: 500;
+  }
+  
+  #terms-btn {
+    height: 45px;
+    width: 150px;
+    background: #056DAE; /* Blue button */
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.6s;
+  }
+  
+  #terms-btn:hover {
+    background: transparent;
+    border: 2px solid #056DAE; /* Blue border on hover */
+    color: #056DAE; /* Blue text on hover */
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media only screen and (max-width: 575.98px) {
+    .app-wrapper {
+      display: block;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0;
+      min-height: auto;
+      max-width: 97%;
+      margin-top: 30px;
+    }
+  
+    .terms-and-conditions {
+      width: 90%;
+      flex-direction: column;
+      margin: 0;
+      padding: 20px;
+    }
+  
+    .terms-heading {
+      width: 99%;
+      padding: 0;
+    }
+  
+    .terms-heading h1 {
+      font-size: 38px;
+    }
+  
+    .terms-heading p {
+      font-size: 18px;
+    }
+  
+    .terms-section h2 {
+      font-size: 30px;
+    }
+  
+    .team-section {
+      flex-direction: column;
+    }
+  
+    .team-section-elem {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .app-wrapper {
+      display: block;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0;
+      min-height: auto;
+      max-width: 97%;
+      margin-top: 30px;
+    }
+  
+    .terms-and-conditions {
+      width: 90%;
+      flex-direction: column;
+      margin: 0;
+      padding: 20px;
+    }
+  
+    .terms-heading {
+      width: 99%;
+      padding: 0;
+    }
+  
+    .terms-heading h1 {
+      font-size: 38px;
+    }
+  
+    .terms-heading p {
+      font-size: 18px;
+    }
+  
+    .terms-section h2 {
+      font-size: 30px;
+    }
+  
+    .team-section {
+      flex-direction: column;
+    }
+  
+    .team-section-elem {
+      width: 100%;
+    }
+  }

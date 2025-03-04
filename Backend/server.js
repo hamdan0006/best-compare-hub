@@ -15,10 +15,17 @@ app.use(express.json());
 
 app.use(cors()); 
 
+const allowedOrigins = [ 'https://www.bestcomparehub.com','https://bestcomparehub.com',];
+
 app.use(cors({
-  origin: 'http://localhost:5173', 
-  methods: ['GET', 'POST', 'UPDATE',"DELETE" ], 
-  allowedHeaders: ['Content-Type', 'Authorization'] 
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true
 }));
 
 // Routes

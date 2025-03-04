@@ -3,6 +3,9 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import "./HotPromotion.css";
 import { TextField, MenuItem } from "@mui/material";
+import '../CommonHero/CommonHero'
+import CommonHero from '../CommonHero/CommonHero'
+import backgroundImage from '/commonhero/hot-promotion.jpg';
 
 function HotPromotion() {
   const [cards, setCards] = useState([]);
@@ -20,7 +23,7 @@ function HotPromotion() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("http://localhost:3000/hot-promotions")
+      .get(`${import.meta.env.VITE_API_URL}/hot-promotions`)
       .then((response) => {
         console.log(response.data);
         setCards(response.data.cards || []);
@@ -72,6 +75,10 @@ function HotPromotion() {
 
   return (
     <>
+    <CommonHero
+     heading="Vouchers" 
+     backgroundImage={backgroundImage} 
+   />
       <div className="voucher-main container-fluid">
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-12 voucher-container">

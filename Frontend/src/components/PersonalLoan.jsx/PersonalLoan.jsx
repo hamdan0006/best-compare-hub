@@ -9,6 +9,10 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import { useParams ,useLocation } from "react-router-dom";
 
+import '../CommonHero/CommonHero'
+import CommonHero from '../CommonHero/CommonHero'
+import backgroundImage from '/commonhero/personal-loan.jpg';
+
 
 function PersonalLoan() {
   // State for mortgage calculator
@@ -104,7 +108,7 @@ if(propertyValue > 3000000){
     };
 
     try {
-      const response = await fetch("http://localhost:3000/personal-loan/apply-now", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/personal-loan/apply-now`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -126,6 +130,12 @@ if(propertyValue > 3000000){
   };
 
   return (
+<>
+
+<CommonHero
+     heading="Apply Now" 
+     backgroundImage={backgroundImage} 
+   />
     <div className="container-fluid d-flex justify-content-center align-items-center mortgageapply">
       <div className="row justify-content-center w-100">
         {/* First Column - Mortgage Calculator */}
@@ -263,6 +273,8 @@ if(propertyValue > 3000000){
       </div>
       <ToastContainer />
     </div>
+    </>
+
   );
 }
 

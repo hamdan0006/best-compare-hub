@@ -1,6 +1,6 @@
 const User =require("../models/sign-User-model");
 var jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
+
 
 
 const home = async (req, res) => {

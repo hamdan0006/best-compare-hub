@@ -35,10 +35,14 @@ import NotFound from './components/NotFound/NotFound'
 import CompanyListing from './components/CompanyListing/CompanyListing'
 
 import { HelmetProvider } from 'react-helmet-async';
+import TermsAndConditions from './components/Terms/Terms'
+
+
 
 
 function App() {
 
+  
 
   return (
     <>
@@ -72,6 +76,11 @@ function App() {
 
           <Route path="/Home-Loan" element={<HomeLoan />} />
 
+          <Route path="/Debt-consolidation" element={<CompanyListing />} />
+          <Route path="/Islamic-finance" element={<CompanyListing />} />
+
+
+
           <Route path="/auto-Loan" element={<AutoLoanWrapper />} />
           <Route path="/auto-Loan/apply-now" element={<AutoLoan />} />
 
@@ -89,6 +98,8 @@ function App() {
 
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+
 
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/company-listing" element={<CompanyListing />} />

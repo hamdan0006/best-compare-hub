@@ -5,6 +5,7 @@ import "./WelcomeOffer.css";
 import { TextField, MenuItem } from "@mui/material"; // Importing MUI components
 
 function WelcomeOffer() {
+  
   // State Management
   const [cards, setCards] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
