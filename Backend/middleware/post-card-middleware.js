@@ -20,7 +20,7 @@ const authMiddleware = (req, res, next) => {
 
 const adminMiddleware = (req, res, next) => {
     if (!req.user || !req.user.isAdmin) { // Change "isadmin" to "isAdmin"
-        return res.status(403).json({ message: "Access Denied: Only admins can perform this action" });
+        return res.status(403).json({ message: "Access Denied:" });
     }
     next();
 };

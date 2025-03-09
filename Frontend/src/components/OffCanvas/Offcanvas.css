@@ -5,6 +5,8 @@
     cursor: pointer;
 }
 
+
+
 .canvas-main-hding {
   color: rgb(60, 60, 60) !important;
 }
@@ -12,9 +14,33 @@
   color: black;
 }
 
-.three-line{
-  position: fixed !important;
+.mobile-res-container{
+  width: 100% !important;
+  height: 8vh !important;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+ 
+  
 }
+
+
+.mobile-res-container-elem{
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+.mobile-res-container-elem.scrolled-bg {
+  background: white !important; /* Change background when scrolled */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px; /* Optional: add shadow for better visibility */
+}
+
+
 .offcanvas {
   background: #f5f4f4;
 padding: 0px !important;
@@ -85,15 +111,15 @@ width: 80% !important;
   @media (max-width: 575.98px) {
     .canvas{
         display: inline;
-        position: absolute;
+        /* position: absolute;
         top: 25px;
-        left: 25px;
+        left: 25px; */
     }
     .three-line{
         display: inline;
-        position: absolute;
+        /* position: absolute;
         top: 25px;
-        left: 25px;
+        left: 25px;  */
     }
   
   }
@@ -101,16 +127,16 @@ width: 80% !important;
   /* For small devices (sm) */
   @media (min-width: 576px) and (max-width: 767.98px) {
     .canvas{
-      display: inline;
+      /* display: inline;
       position: absolute;
       top: 25px;
-      left: 25px;
+      left: 25px; */
   }
   .three-line{
-      display: inline;
+      /* display: inline;
       position: absolute;
       top: 25px;
-      left: 25px;
+      left: 25px; */
   }
     
   }
@@ -124,10 +150,10 @@ width: 80% !important;
       left: 25px;
   }
   .three-line{
-      display: inline;
+      /* display: inline;
       position: absolute;
       top: 25px;
-      left: 25px;
+      left: 25px; */
   }
    
   }

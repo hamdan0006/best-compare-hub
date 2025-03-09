@@ -10,7 +10,7 @@ import Select from "@mui/material/Select";
 
 import '../CommonHero/CommonHero'
 import CommonHero from '../CommonHero/CommonHero'
-import backgroundImage from '/commonhero/personal-loan.jpg';
+import backgroundImage from '/commonhero/mortgage.jpg';
 
 
 function CompanyListing() {
@@ -33,6 +33,11 @@ function CompanyListing() {
   const handleSubmit = async () => {
     if (!FirstName || !LastName || !PhoneNumber) {
       toast.error("Please fill out all mandatory fields.");
+      return;
+    }
+
+    if (!CompanyName) {
+      toast.error("Please Enter Company Name");
       return;
     }
 
@@ -82,7 +87,7 @@ function CompanyListing() {
 
     <>
     <CommonHero
-     heading="Get Our Services" 
+     heading="Company Listing" 
      backgroundImage={backgroundImage} 
    />
     <div className="container-fluid d-flex justify-content-center align-items-center mortgageapply">

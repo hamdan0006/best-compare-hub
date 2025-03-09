@@ -44,7 +44,7 @@ nav ul li .active-link.scrolled-link {
 
 /* Dropdown Menu */
 .nav-item {
-  margin-left: 60px;
+  margin-left: 30px;
   position: relative;
   display: inline-block;
 }
@@ -74,7 +74,10 @@ nav ul li .active-link.scrolled-link {
   opacity: 1;
   transform: translateY(0);
 }
-
+.search-item{
+  cursor: pointer;
+  z-index: 1200;
+}
 .dropdown-item {
   color: #333 !important;
   padding: 10px 20px;
@@ -96,6 +99,11 @@ nav ul li .active-link.scrolled-link {
 .custom-navbar.scrolled .dropdown-item:hover {
   color: #19258a !important;
 }
+
+.c-search-container{
+  width: 40px;
+}
+
 
 
 /* Responsive Styles */
@@ -123,3 +131,5 @@ nav ul li .active-link.scrolled-link {
     margin-left: 40px !important;
   }
 }
+
+

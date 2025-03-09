@@ -54,6 +54,18 @@ const {PostContact} =require('../controller/Contact-controller');
 const companylisting =require('../controller/CompanyListing-controller');
 const {PostCompanyListing}=require('../controller/CompanyListing-controller');
 
+// islamic finance 
+
+const IslamicFinance =require('../controller/Islamic-finance-controller');
+const {PostISlFinanceListing}=require('../controller/Islamic-finance-controller');
+
+
+// debt consol 
+
+const Debtconsol =require('../controller/debt-consol-controller');
+const {PostDebtConsole}=require('../controller/debt-consol-controller');
+
+
 // sitemap imports 
 
 const { generateSitemap } = require("../Sitemap/sitemap");
@@ -106,6 +118,13 @@ router.post('/contact-us' ,Contact.PostContact );
 
 router.post('/company-listing' ,companylisting.PostCompanyListing);
 
+
+router.post('/Islamic-finance',IslamicFinance.PostISlFinanceListing);
+
+
+// debt consol 
+
+router.post('/debt-consolidation',Debtconsol.PostDebtConsole)
 
 // site maps 
 

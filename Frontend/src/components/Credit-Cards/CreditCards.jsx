@@ -25,7 +25,7 @@ function CreditCards() {
       id: 1,
       title: "Best Credit Cards in UAE",
       description: "Apply for the best credit cards in the UAE and enjoy the fastest service available!",
-      image: "/hero/slider1.webp",
+      image: "/hero/hero2.png",
       bgColor: "#19258a",
       link: '/credit-cards'
 
@@ -183,14 +183,7 @@ function CreditCards() {
     );
   };
 
-    useEffect(() => {
-      AOS.init({
-        duration: 1000, // Animation duration in milliseconds
-        once: false, // Ensure animation plays every time on scroll
-        mirror: true, // Repeats animation when scrolling up
-      });
-    }, []);
-    
+
 
 
   return (
@@ -512,7 +505,7 @@ function CreditCards() {
                         <div>
                           {currentCards.map((card) => {
                             return (
-                              <div className="card-item" key={card._id} data-aos="fade-right">
+                              <div className="card-item" key={card._id} >
                                 <div className="line"></div>
 
                                 <div className="card-dtl-wrapper">

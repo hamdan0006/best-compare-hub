@@ -11,7 +11,7 @@ import { useParams ,useLocation } from "react-router-dom";
 
 import '../CommonHero/CommonHero'
 import CommonHero from '../CommonHero/CommonHero'
-import backgroundImage from '/commonhero/personal-loan.jpg';
+import backgroundImage from '/commonhero/cash.jpg';
 
 
 function PersonalLoan() {

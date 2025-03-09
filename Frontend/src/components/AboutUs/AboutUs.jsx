@@ -45,14 +45,14 @@ const AboutUs = () => {
           <span>About Us</span>
           <h1>About Us</h1>
           <p>
-            Welcome to BankCompareHub
+            Welcome to BestCompareHub
           </p>
         </div>
 
         <div className="about-sub-sec">
           <h2>Our Mission Is To Simplify Financial Access</h2>
           <p>
-            At BankCompareHub, our mission is to simplify the way you access financial products. Whether you’re searching for the right credit card, a personal loan to achieve your goals, an auto loan to get on the road, or a home loan or mortgage to secure your dream home, we are here to help you find the best options tailored to your needs.
+            At BestCompareHub, our mission is to simplify the way you access financial products. Whether you’re searching for the right credit card, a personal loan to achieve your goals, an auto loan to get on the road, or a home loan or mortgage to secure your dream home, we are here to help you find the best options tailored to your needs.
           </p>
           <p>
             We know that navigating financial services can feel overwhelming. That’s why we’ve created a transparent, user-friendly platform that brings together top financial products from trusted third-party, financial institutions, and banks. Our website allows you to compare rates, terms, and features across a variety of options, helping you make informed decisions and find the right financial solution for your situation.
@@ -88,7 +88,7 @@ const AboutUs = () => {
             <div className="team-element">
               <h2>Why Choose Us?</h2>
               <p className="team-element-p">
-                At BankCompareHub, we’re dedicated to empowering you to make confident financial choices. We offer insightful resources, expert advice, and the latest financial products to help you take control of your financial future.
+                At BestCompareHub, we’re dedicated to empowering you to make confident financial choices. We offer insightful resources, expert advice, and the latest financial products to help you take control of your financial future.
               </p>
               <ul>
                 <li><strong>Easy Comparison:</strong> Quickly compare financial products, saving you time and effort.</li>

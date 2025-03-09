@@ -4,10 +4,14 @@
     min-height: fit-content;
     /* margin-bottom: 20vh; */
 }
+.mortgage-main{
+  margin-bottom: 30px;
+}
 
 .mortgage-container{
     /* margin-top: 30vh; */
-
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
 
 }
 .img-container{

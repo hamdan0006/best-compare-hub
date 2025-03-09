@@ -12,6 +12,7 @@ import "swiper/css/pagination";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import FAQComp from "../FAQComp/FAQComp";
 
 
 const slides = [
@@ -19,16 +20,16 @@ const slides = [
     id: 0,
     title: "Compare Best Banking Products",
     description: "Find and apply for the best financial products tailored to your needs, and get approved faster with",
-    image: "/hero/slider1.webp",
+    image: "/hero/hero1.png",
     bgColor: "#0d1a5b",
-    link : '/'
+    link : '/credit-cards'
     
   },
   {
     id: 1,
     title: "Best Credit Cards in UAE",
     description: "Apply for the best credit cards in the UAE and enjoy the fastest service available!",
-    image: "/hero/slider2.webp",
+    image: "/hero/hero2.png",
     bgColor: "#19258a",
     link : '/credit-cards'
 
@@ -37,7 +38,7 @@ const slides = [
     id: 2,
     title: "Mortgage",
     description: "Compare and find the best mortgage banks in the UAE to secure the perfect home loan for you!",
-    image: "/hero/slider3.webp",
+    image: "/hero/hero3.png",
     bgColor: "#0d1a5b",
     link : '/mortgage'
   },
@@ -45,7 +46,7 @@ const slides = [
     id: 3,
     title: "Loan",
     description: "Compare and find the best loan services in the UAE to get the right financial solution for your needs!",
-    image: "/hero/slider4.webp",
+    image: "/hero/hero4.png",
     bgColor: "#18224e",
     link : '/personal-loan'
   },
@@ -250,9 +251,9 @@ function Home() {
         <div className="journey-content">
          
           <div className="journey-text" data-aos="fade-up"> 
-            <h3>Transforming banking services to create a positive impact.</h3>
+            <h3>Empowering you with seamless financial solutions.</h3>
             <p>
-            Our approach ensures that we deliver top-notch financial services, offering the best mortgage options, credit cards, and loan solutions. With the power of digital transformation, we help you make smarter financial decisions and achieve your goals seamlessly.
+            We provide personalized banking solutions tailored to your needs. Whether you're looking for the best savings plans, secure transactions, or investment opportunities, our services ensure financial growth and stability with ease and transparency.
             </p>
           </div>
 
@@ -272,22 +273,23 @@ function Home() {
          
           <div className="journey-stats" data-aos="fade-right">
             <div className="stats-item">
-              <h4>250+</h4>
-              <p>Completion of Complex projects & products</p>
+              <h4>24/7</h4>
+              <p>Secure & hassle-free banking experience</p>
             </div>
             
             <div className="stats-item">
-              <h4>70+</h4>
-              <p>Change makers driving revolution</p>
+              <h4>500+</h4>
+              <p>Customers benefiting from our services</p>
             </div>
             <div className="stats-item">
-              <h4>20+</h4>
-              <p>Awards & Recognitions</p>
+              <h4>100%</h4>
+              <p>Customer satisfaction & trust</p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
         
 
         
@@ -354,7 +356,7 @@ function Home() {
   <div class="team-sec-elem">
     <div class="image-container">
       <img class="we-img service-1" src="/home/services-1.webp" alt="Service 1 Image" />
-      <img class="we-img service-2" src="/home/services-2.webp" alt="Service 2 Image" data-aos="fade-up" />
+      <img class="we-img service-2" src="/home/service-4.jpg" alt="Service 2 Image" data-aos="fade-up" />
     </div>
   </div>
 </section>
@@ -364,7 +366,7 @@ function Home() {
 
         </div>
 
-
+<FAQComp/>
       </main>
     </>
   )

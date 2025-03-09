@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(cors()); 
 
-const allowedOrigins = [ 'https://www.bestcomparehub.com','https://bestcomparehub.com',];
+const allowedOrigins = [ 'https://www.bestcomparehub.com','https://bestcomparehub.com','http://localhost:5173','https://www.adminaccess.bestcomparehub.com','https://adminaccess.bestcomparehub.com'];
 
 app.use(cors({
   origin: function (origin, callback) {
@@ -57,6 +57,10 @@ app.use('/hot-promotions/apply', routes);
 app.use('/contact-us', routes);
 
 app.use('/company-listing', routes);
+app.use('/Islamic-finance', routes);
+app.use('/debt-consolidation', routes);
+
+
 
 app.use("/", sitemap);
 

@@ -74,6 +74,7 @@
  .navlink{
   text-decoration: none !important;
   color: white !important;
+  cursor: pointer;
 
  }
 

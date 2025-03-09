@@ -1,17 +1,98 @@
-.mortgage-main{
+.autoloan-main {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
     padding-top: 80px;
-
 }
-.mortgage-wrapper{
+
+.auto-loan-wrapper {
     padding: 20px;
-    background: rgb(247, 247, 247);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    
+    width: 100%;
+}
+
+.loan-filter {
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+
+/* Default Layout (Large Screens) */
+.loan-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loan-filter-1 {
+    width: 25%;
+    min-height: fit-content;
+    margin-right: 20px;
+}
+
+.loan-filter-2 {
+    width: 70%;
+}
+
+/* Medium to Large Screens (1007px - 1400px) */
+@media (min-width: 1007px) and (max-width: 1400px) {
+    .loan-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loan-filter-1 {
+        width: 60%;
+        margin: auto !important;
+        margin-bottom: 40px !important;
+    }
+
+    .loan-filter-2 {
+        width: 80%;
+    }
+}
+
+/* Medium Devices (Tablets, small desktops - 768px to 1006px) */
+@media (max-width: 1006px) {
+    .loan-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loan-filter-1,
+    .loan-filter-2 {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+/* Small Devices (Mobile) */
+@media (max-width: 768px) {
+    .loan-filter-1,
+    .loan-filter-2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .loan-filter input {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+    .loan-filter {
+        padding: 15px;
+    }
+
+    .loan-filter-1 h3 {
+        font-size: 18px;
+    }
+
+    .loan-filter input {
+        font-size: 14px;
+    }
 }
