@@ -38,7 +38,12 @@ function Navbar() {
       <div className="container menu-list-container">
         {/* Logo */}
         <div className="navbar-brand">
-          <span id="logo">Best Compare Hub</span>
+          {/* <span id="logo">Best Compare Hub</span> */}
+          <div className="logo-section-nav">
+                    <img src="/logo-f.jpg" alt=""  id='main-logo'/>
+                  </div>
+          
+
         </div>
 
         {/* Menu Items */}

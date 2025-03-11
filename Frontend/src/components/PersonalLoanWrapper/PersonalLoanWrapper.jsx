@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Mortgage from '../Mortgage/Mortgage';
 import './PersonalLoanWrapper.css';
 import CommonHero from '../CommonHero/CommonHero';
-import backgroundImage from '/commonhero/cash.jpg';
+import backgroundImage from '/commonhero/dirham2.jpg';
 
 function PersonalLoanWrapper() {
     const [searchQuery, setSearchQuery] = useState('');

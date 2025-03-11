@@ -140,13 +140,13 @@ function Offcanvas() {
                     <div className="col-10">
                       <NavLink  className={({ isActive }) => (isActive ? 'active-link' : 'inactive-link')}>
                         <p className="d-flex align-items-center" >
-                          <span className='canvas-main-hding'>Other Services</span>
+                          <span className='canvas-main-hding' >Other Services</span>
                         </p>
                       </NavLink>
                     </div>
                     <div className="col-2 text-end">
                       <span className="canvas-main-hding" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <span className="fs-4">+</span>
+                        <span className="fs-1">+</span>
                       </span>
                     </div>
                   </div>

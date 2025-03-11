@@ -1,4 +1,4 @@
-const DebtConsolSchema = require('../models/company-listing-model');
+const DebtConsolSchema = require('../models/debt-consol-model');
 
 
 const PostDebtConsole = async (req, res) => {

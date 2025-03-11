@@ -11,7 +11,7 @@ import Select from "@mui/material/Select";
 import '../CommonHero/CommonHero'
 import CommonHero from '../CommonHero/CommonHero'
 import backgroundImage from '/commonhero/Isl-finance.jpg';
-import './Islamic-finance.css'
+import './Islamic-Finance.css'
 
 
 function IslamicFinance() {
@@ -103,7 +103,7 @@ function IslamicFinance() {
           <div className="mor-inpt-field-container">
             <TextField required label="First Name " value={FirstName} onChange={(e) => setFirstName(e.target.value)} fullWidth margin="normal" />
             <TextField required label="Last Name " value={LastName} onChange={(e) => setLastName(e.target.value)} fullWidth margin="normal" />
-            <TextField required label="Company Name " value={CompanyName} onChange={(e) => setCompanyName(e.target.value)} fullWidth margin="normal" />
+            <TextField  label="Company Name " value={CompanyName} onChange={(e) => setCompanyName(e.target.value)} fullWidth margin="normal" />
             <TextField required label="Phone Number " value={PhoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} fullWidth margin="normal" />
             <TextField required label="Email" value={Email} onChange={(e) => setEmail(e.target.value)} fullWidth margin="normal" />
             <FormControl fullWidth margin="normal" sx={{ position: "relative" }}>

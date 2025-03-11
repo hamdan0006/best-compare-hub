@@ -8,49 +8,66 @@ function Footer() {
 
       <main className='footer'>
 
-        <div className="footer-logo"></div>
+        <div className="footer-logo-section">
+        <div className="logo-section-footer">
+                    <img src="/logo-f.jpg" alt=""  id='footer-logo'/>
+                  </div>
+        </div>
 
         <div className="container-fluid">
           <div className="row d-flex justify-content-center footer-row">
-            <div className="col-lg-3 col-md-12 col-sm-12 footer-content-container footer-content-container-1">
+            <div className="col-lg-4 col-md-12 col-sm-12 footer-content-container footer-content-container-1">
 
 
-              <div className="footer-list-wrapper container-fluid">
+              <div className="footer-list-wrapper ">
+            
 
-                <div className="row d-flex">
+                <div className=" footer-list-container">
 
-                  <div className="footer-list col-lg-6 col-md-6 col-sm-6">
+             
+
+                  <div className="footer-list ">
                     <ul className="footer-list-item-container">
                       <h4>Services</h4>
 
                       <li className='footer-list-item'>Credit Cards</li>
                       <li className='footer-list-item'>Auto Loan</li>
                       <li className='footer-list-item'>Personal Loan</li>
+                      <li className='footer-list-item'>Mortgage</li>
                       <li className='footer-list-item'>Vouchers</li>
+                      <li className='footer-list-item'>Islamic Finance</li>
+                      <li className='footer-list-item'>Debt Consolidation</li>
+                      <li className='footer-list-item'>Company Listing</li>
+
+
+
+
 
 
                     </ul>
 
                   </div>
 
-                  <div className="footer-menu col-lg-6 col-md-6 col-sm-6">
+                  <div className="footer-menu ">
 
                     <ul className="footer-menu-item-container">
-                      <h4>Menu</h4>
+                      <h4>Company</h4>
                       <NavLink to='about-us' className='navlink' >
                         <li className='footer-menu-item'>About Us</li>
                       </NavLink>
                       <NavLink to='privacy-policy' className='navlink'>
                         <li className='footer-menu-item'>Privacy Policy</li>
                       </NavLink>
-                      <NavLink to='contact-us' className='navlink' >
 
-                        <li className='footer-menu-item'>Contact Us</li>
-                      </NavLink>
 
                       <NavLink to='terms-and-conditions' className='navlink' >
 
                         <li className='footer-menu-item'>Terms & Condition</li>
+                      </NavLink>
+
+                      <NavLink to='contact-us' className='navlink' >
+
+                        <li className='footer-menu-item'>Contact Us</li>
                       </NavLink>
 
                     </ul>
@@ -65,7 +82,7 @@ function Footer() {
             </div>
             <div className="col-lg-4 col-md-12 col-sm-12 footer-content-container footer-content-container-2">
 
-              <h2>How can we help you?
+              <h2>Make your Banking Journey Effortless.
               </h2>
 
               <p>Ready to simplify banking and discover smarter financial solutions?</p>

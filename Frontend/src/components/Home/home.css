@@ -123,7 +123,8 @@
   font-size: 30px;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  z-index: 1001;
 }
 
 .arrow:hover {
@@ -339,6 +340,7 @@ background: white;
 .team-goals-list{
   list-style: none;
   margin-bottom: 40px;
+  width: 600px;
 }
 
 .team-goals-list-item{
@@ -379,7 +381,6 @@ background: white;
   height: auto; /* Maintain aspect ratio */
   height: 410px;
   width: 410px;
-  background: yellow;
 }
 
 
@@ -400,15 +401,25 @@ background: white;
   }
 }
 
+@media (min-width: 350px) and (max-width: 400px){
 
+  .team-goals-list-item{
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
 
   /* For extra small devices (xs) */
 @media (max-width: 600px) {
 
-  .hero-section {
-  
+  .hero-section-home {
+    position: relative;
+    width: 100%;
     height: 90vh;
-   
+  
+    background-size: 75%;
+
+
   }
 
   .hero-content {
@@ -507,6 +518,13 @@ width: 100% !important;
  margin-bottom: 25px;
 
 }
+.team-goals-list{
+  list-style: none;
+  margin-bottom: 40px;
+  margin-left: -30px;
+  width: 320px;
+}
+
 .service-1 {
 width: 280px !important;
 height: 200px !important;

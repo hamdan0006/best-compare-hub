@@ -104,6 +104,15 @@ nav ul li .active-link.scrolled-link {
   width: 40px;
 }
 
+.logo-section-nav{
+  width: 70px !important;
+  height: 60px !important;
+}
+#main-logo{
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+}
 
 
 /* Responsive Styles */
