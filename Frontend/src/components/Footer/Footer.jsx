@@ -65,6 +65,11 @@ function Footer() {
                         <li className='footer-menu-item'>Terms & Condition</li>
                       </NavLink>
 
+                      <NavLink to='legal' className='navlink' >
+
+                        <li className='footer-menu-item'>Legal</li>
+                      </NavLink>
+
                       <NavLink to='contact-us' className='navlink' >
 
                         <li className='footer-menu-item'>Contact Us</li>

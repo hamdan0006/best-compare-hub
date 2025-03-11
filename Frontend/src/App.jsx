@@ -41,6 +41,7 @@ import CommonSearchCont from './components/CommonSearchCont/CommonSearchCont'
 import SearchBar from './components/CommonSearch/CommonSearch'
 import IslamicFinance from './components/Islamic-Finance/Islamic-finance'
 import DebtConsolidation from './components/DebtConsol/DebtConsol'
+import Legal from './components/Legal/Legal'
 
 
 
@@ -115,6 +116,9 @@ function App() {
 
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/company-listing" element={<CompanyListing />} />
+
+            <Route path="/legal" element={<Legal />} />
+
 
           
 
