@@ -64,7 +64,7 @@ function CreditCards() {
   useEffect(() => {
     setLoading(true);
     axios
-    .get(`${import.meta.env.VITE_API_URL}/credit-cards`)
+      .get(`${import.meta.env.VITE_API_URL}/credit-cards`)
 
       .then((response) => {
         setCards(response.data.cards || []);
@@ -281,15 +281,15 @@ function CreditCards() {
             <main className="credit-card-main">
 
 
-             <div
-        className="res-filter"
-        onClick={() => setShowFilters(!showFilters)}
-      >
-        Apply filters
-      </div>
+              <div
+                className="res-filter"
+                onClick={() => setShowFilters(!showFilters)}
+              >
+                Apply filters
+              </div>
               <section className="card-section-main container-fluid">
                 <div className="row">
-                <div className={`filter col-lg-4 card-section-main-sec ${showFilters ? "show" : "hide"}`}>
+                  <div className={`filter col-lg-4 card-section-main-sec ${showFilters ? "show" : "hide"}`}>
                     <h3 className="filter-heading">Filters</h3>
 
                     {/* Search Input */}
@@ -523,7 +523,16 @@ function CreditCards() {
                                     <div className="card-dtl-txt">
                                       <h3 className="card-name">{card.CardName}</h3>
                                       <p className="bank-name">{card.BankName}</p>
-                                      <p className="card-description">{card.description}</p>
+
+                                      <p className="card-description">
+                                        <Link className="custom-Navlink" to = {`${card._id}`}>
+                                        {card.description.length > 20
+                                          ? `${card.description.slice(0, 60)}...`
+                                          : card.description}
+                                          </Link>
+                                      </p>
+                                      
+
                                     </div>
 
                                     <div className="card-dtl-sec-2">
@@ -625,7 +634,7 @@ function CreditCards() {
         )}
       </div>
 
-      
+
 
     </>
   );

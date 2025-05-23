@@ -95,9 +95,9 @@ function Home() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Animation duration in milliseconds
-      once: false, // Ensure animation plays every time on scroll
-      mirror: true, // Repeats animation when scrolling up
+      duration: 1000, 
+      once: false, 
+      mirror: true, 
     });
   }, []);
 

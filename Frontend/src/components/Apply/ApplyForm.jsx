@@ -262,6 +262,17 @@ function ApplyForm() {
           </div>
         </div>
       </div>
+      <div className="descripttion-section">
+      <h2 className="card-des-heading">Card Description</h2>
+
+      <div className="descrip-box">
+      
+      <p>{card.description}</p>
+
+      </div>
+
+      </div>
+
     </>
   );
 }

@@ -98,7 +98,7 @@ function HotPromotionApply() {
 
         try {
             const response = await axios.post(
-                "http://localhost:3000/hot-promotions/apply",
+                `${import.meta.env.VITE_API_URL}/hot-promotions/apply}`,
                 formData
             );
             toast.success("Application submitted successfully!");

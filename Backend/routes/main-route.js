@@ -89,7 +89,7 @@ router.get('/credit-cards/free-for-life', CardController.getAllCard);
 
 router.post('/hot-promotions',authMiddleware,adminMiddleware, upload.single('image'), createVoucher);
 
-router.post('/hot-promotions/apply', validateContact, checkValidation, AplyVoucher.PostVoucher );
+router.post('/hot-promotions/apply',  AplyVoucher.PostVoucher );
 
 router.get('/hot-promotions',VoucherController.getAllVouchers);
 router.get('/hot-promotions/:id',VoucherController.getVoucherById);

@@ -70,16 +70,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/credit-cards" element={<CreditCards />} />
-            <Route path="/credit-cards/welcome-offers" element={<WelcomeOffer />} />
-            <Route path="/credit-cards/balance-transfer" element={<BalanceTransfer />} />
-
-            <Route path="/credit-cards/airport-services" element={<Airportservice />} />
-
-            <Route path="/credit-cards/free-for-life" element={<FreeForLife />} />
-
-
-
-
+          ``
 
 
 

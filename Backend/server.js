@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(cors()); 
 
-const allowedOrigins = [ 'https://www.bestcomparehub.com','https://bestcomparehub.com',];
+const allowedOrigins = [ 'https://www.bestcomparehub.com','https://bestcomparehub.com','http://localhost:5173'];
 
 app.use(cors({
   origin: function (origin, callback) {

@@ -10,7 +10,7 @@ const ApplyLoanSchema =new mongoose.Schema({
         type:String,
         required :true
     },
-    CompanytName :{
+    CompanyName :{
         type:String,
         required :false
     },

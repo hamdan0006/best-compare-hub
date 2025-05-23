@@ -92,7 +92,7 @@ function Footer() {
 
               <p>Ready to simplify banking and discover smarter financial solutions?</p>
 
-              <a id='work-t-btn' href="https://wa.link/k0z8hc" target='blank'> Let's Work Together</a>
+              <a id='work-t-btn' href="https://wa.link/ajylsd" target='blank'> Let's Work Together</a>
 
             </div>
             <div className="col-lg-3 col-md-12 col-sm-12 footer-content-container footer-content-container-3">
@@ -131,7 +131,7 @@ function Footer() {
                   </div>
                 </a>
 
-                <a href="" target='blank'>
+                <a href="https://www.linkedin.com/in/best-compare-hub-a0577935b" target='blank'>
 
                   <div className="footer-svg-container">
 
@@ -144,7 +144,7 @@ function Footer() {
 
               <h5 id='emil-id'>Sales@bestcomaprehub.com</h5>
 
-              <h6 id='number'>+971 50 597 6209</h6>
+              <h6 id='number'>+971547086231</h6>
 
 
             </div>

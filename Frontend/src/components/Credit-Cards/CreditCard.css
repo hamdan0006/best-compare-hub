@@ -56,14 +56,14 @@
 .hero-section-credit {
   position: relative;
   width: 100%;
-  height: 70vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-size: cover;
-  background-position: center;
-  background-size: 41%;
+  background-position: bottom;
+  background-size: 34%;
 background-repeat: no-repeat;
 background-position: right;
 overflow-y: hidden;
@@ -125,7 +125,7 @@ transition: 0.7s ease;
   min-width: fit-content;
 }
 .card-dtl-sec-2{
-  margin: 40px 0px 0px 15px;
+  margin: 40px 85px 0px 15px;
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
@@ -154,7 +154,7 @@ transition: 0.7s ease;
 }
 
 .card-description {
-  font-size: 14px;
+  font-size: 16px;
   color: #555; /* Neutral color for description */
   line-height: 1.5;
   margin-bottom: 16px;

@@ -6,7 +6,7 @@ const PostApplyLoan = async (req, res) => {
         const ApplyLoan = new ApplyLoanSchema({
             FirstName: req.body.FirstName,
             LastName: req.body.LastName,
-            CompanytName: req.body.CompanytName,
+            CompanyName: req.body.CompanyName,
             PhoneNumber: req.body.PhoneNumber,
             Email: req.body.Email,
             State: req.body.State,

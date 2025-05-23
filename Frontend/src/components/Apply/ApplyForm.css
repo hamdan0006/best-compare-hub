@@ -210,6 +210,27 @@
     backdrop-filter: blur(1px); /* Adds blur effect */
     z-index: 1; /* Puts the overlay above the background image */
   }
+
+  .card-des-heading{
+    text-align: center;
+    margin: 50px;
+  }
+  .descrip-box{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    height: 40vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+  }
+
+  .descrip-box p{
+    padding: 50px 0px 0px 0px;
+    font-size: 24px;
+    
+  }
   
 
  option {
